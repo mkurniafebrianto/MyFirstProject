@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMeActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_aboutme_photo"
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="55dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/about_me_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/robot_medium"
+        android:text="@string/kurnia_febrianto" />
+
+    <TextView
+        android:id="@+id/about_me_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/robot_regular"
+        android:text="@string/email"/>
+
+</RelativeLayout>

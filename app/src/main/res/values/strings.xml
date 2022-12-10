@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">10 Top-Ranked Universities in Indonesia Based QS WUR 2023</string>
+    <string name="film_name">Nama Universitas</string>
+    <string name="detail">Detail</string>
+    <string name="about_me">About Me</string>
+    <string name="text_view">Text View</string>
+    <string name="ini_moveactivity">Ini MoveActivity</string>
+    <string name="kurnia_febrianto">M Kurnia Febrianto</string>
+    <string name="email">mkurniafebrianto@gmail.com</string>
+</resources>
